@@ -1,0 +1,2 @@
+.github/ exports-ignore
+phpstan.neon exports-ignore

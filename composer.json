@@ -1,0 +1,26 @@
+{
+  "name": "byteshard/asset-plugin",
+  "type": "composer-plugin",
+  "license": "MPL-2.0",
+  "authors": [
+    {
+      "name": "Lars Hennig"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "byteShard\\AssetPlugin\\": "src/"
+    }
+  },
+  "require-dev": {
+    "composer/composer": "^2.0",
+    "phpstan/phpstan": "^1.9"
+  },
+  "require": {
+    "php": "^8.1",
+    "composer-plugin-api": "^2.0"
+  },
+  "extra": {
+    "class": "byteShard\\AssetPlugin\\ComposerScripts"
+  }
+}
